@@ -1,0 +1,25 @@
+ _____                  _            ___                 _   _      _    
+/  ___|                | |          |_  |               | | (_)    | |   
+\ `--. _ __   ___  __ _| | ___   _    | | ___  _   _ ___| |_ _  ___| | __
+ `--. \ '_ \ / _ \/ _` | |/ / | | |   | |/ _ \| | | / __| __| |/ __| |/ /
+/\__/ / | | |  __/ (_| |   <| |_| /\__/ / (_) | |_| \__ \ |_| | (__|   < 
+\____/|_| |_|\___|\__,_|_|\_\\__, \____/ \___/ \__, |___/\__|_|\___|_|\_\
+                              __/ |             __/ |                    
+                             |___/             |___/                     
+-------------------------------------------------------------------------
+WIKI: http://wiki.github.com/sneakyness/SneakyJoystick/
+HTTP SRC: http://github.com/sneakyness/SneakyJoystick.git
+GIT: git://github.com/sneakyness/SneakyJoystick.git
+Email: SneakyJoystick@Sneakyness.com 
+IRC: sneakyness irc.freenode.net
+-------------------------------------------------------------------------
+
+	Sneakyjoystick
+	- A joystick for use with iPhone Game Development
+	- Independent of external libraries
+
+		This project is currently in the planning stages, I am currently
+	analyzing both ExtrasJoystick as well as 3rd party Joysticks. I hope
+	to take the good features from both, eliminate negatives, as well as
+	include some new and exciting features, too.
+	
