@@ -1,0 +1,63 @@
+TSneakyJoystick
+v7
+r1
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Resources/Default.png
+c000000004B7981EC00000000000077AB
+t1266254316
+s30635
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Resources/Icon.png
+c000000004B7981EC000000000000246F
+t1266254316
+s9327
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Resources/fps_images.png
+c000000004B7981EC000000000000183B
+t1266254316
+s6203
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app
+t2
+s0
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/fps_images.png
+t2
+s0
+
+NResources/Info.plist
+c000000004B7981EC0000000000000306
+t1266254316
+s774
+
+CCpResource build/Debug/SneakyJoystick.app/Contents/Resources/Default.png Resources/Default.png
+r0
+
+CCpResource build/Debug/SneakyJoystick.app/Contents/Resources/Icon.png Resources/Icon.png
+r0
+
+CCpResource build/Debug/SneakyJoystick.app/Contents/Resources/fps_images.png Resources/fps_images.png
+r0
+
+CProcessInfoPlistFile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Info.plist Resources/Info.plist
+r0
+
+CTouch /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app
+r0
+
