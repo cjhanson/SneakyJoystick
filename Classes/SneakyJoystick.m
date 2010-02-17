@@ -21,7 +21,7 @@
 
 @implementation SneakyJoystick
 
-@synthesize joystickRadius, thumbRadius, autoCenter, velocity, degrees;
+@synthesize joystickRadius, thumbRadius, autoCenter, velocity, degrees, isDPad, numberOfDirections;
 
 - (void) dealloc
 {
@@ -41,6 +41,8 @@
 		thumbRadius = 32.0f;
 		curPosition = CGPointZero;
 		active = NO;
+		isDPad = NO;
+		numberOfDirections = 4;
 		
 		background = [[ColoredCircleSprite circleWithColor:ccc4(255, 0, 0, 128) radius:rect.size.width/2] retain];
 		[self addChild:background z:0];

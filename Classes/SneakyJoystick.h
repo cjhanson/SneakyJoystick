@@ -23,6 +23,8 @@
 	CGPoint velocity;
 	bool active;
 	BOOL autoCenter;
+	NSUInteger numberOfDirections;
+	BOOL isDPad;
 	
 	ColoredCircleSprite *thumb;
 	ColoredCircleSprite *background;
@@ -33,6 +35,8 @@
 @property (nonatomic, assign) float thumbRadius;
 @property (nonatomic, readonly) CGPoint velocity;
 @property (nonatomic, readonly) float degrees;
+@property (nonatomic, assign) NSUInteger numberOfDirections;
+@property (nonatomic, assign) BOOL isDPad;
 
 -(id)initWithRect:(CGRect)rect;
 

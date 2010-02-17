@@ -63,6 +63,7 @@
 		[self addChild:leftJoystick];
 		
 		rightJoystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(size.width - 75.0f-10, 75.0f+10, 150.0f, 150.0f)];
+		rightJoystick.isDPad = YES;
 		[self addChild:rightJoystick];
 		
 			// schedule a method to update object positions based on the joystick(s)
