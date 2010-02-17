@@ -1,15 +1,17 @@
 
 // When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
-#import "joystick.h"
+#import "SneakyJoystick.h"
 
-@class joystick;
+@class SneakyJoystick;
 
 // HelloWorld Layer
-@interface HelloWorld : Layer
+@interface HelloWorld : CCLayer
 {
-	joystick * leftJoystick;
-	Label * helloWorldLabel;
+	SneakyJoystick *leftJoystick;
+	SneakyJoystick *rightJoystick;
+	CCNode *leftPlayer;
+	CCNode *rightPlayer;
 }
 
 // returns a Scene that contains the HelloWorld as the only child

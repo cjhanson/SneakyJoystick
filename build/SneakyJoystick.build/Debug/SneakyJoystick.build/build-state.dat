@@ -41,10 +41,73 @@ N/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick
 t2
 s0
 
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/128_white.png
+c000000004B7B8FDF0000000000001109
+t1266388959
+s4361
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/64_white.png
+c000000004B7B8FDF0000000000000D98
+t1266388959
+s3480
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/Default.png
+c000000004B7B8FDF00000000000077AB
+t1266388959
+s30635
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/Icon.png
+c000000004B7B8FDF000000000000246F
+t1266388959
+s9327
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/fps_images.png
+c000000004B7B8FDF000000000000183B
+t1266388959
+s6203
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app
+t2
+s0
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/128_white.png
+t2
+s0
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/64_white.png
+t2
+s0
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Resources/fps_images.png
+t2
+s0
+
 NResources/Info.plist
-c000000004B7981EC0000000000000306
-t1266254316
+c000000004B7B8FDF0000000000000306
+t1266388959
 s774
+
+CCpResource build/Debug/SneakyJoystick.app/Contents/Resources/128_white.png Resources/128_white.png
+r0
+
+CCpResource build/Debug/SneakyJoystick.app/Contents/Resources/64_white.png Resources/64_white.png
+r0
 
 CCpResource build/Debug/SneakyJoystick.app/Contents/Resources/Default.png Resources/Default.png
 r0
@@ -55,7 +118,13 @@ r0
 CCpResource build/Debug/SneakyJoystick.app/Contents/Resources/fps_images.png Resources/fps_images.png
 r0
 
+CProcessInfoPlistFile "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Info.plist" Resources/Info.plist
+r0
+
 CProcessInfoPlistFile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app/Contents/Info.plist Resources/Info.plist
+r0
+
+CTouch "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug/SneakyJoystick.app"
 r0
 
 CTouch /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug/SneakyJoystick.app

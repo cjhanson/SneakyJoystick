@@ -13,20 +13,19 @@
 
 #import "cocos2d.h"
 
-@interface joystick : Layer {
+@class ColoredCircleSprite;
+
+@interface SneakyJoystick : CCNode <CCTargetedTouchDelegate> {
 	float joystickRadius;
 	float thumbRadius;
-	CGPoint center;
 	CGPoint curPosition;
 	float degrees;
 	CGPoint velocity;
-	CGRect bounds;
 	bool active;
 	BOOL autoCenter;
-	int touchAddress;
 	
-	Sprite *thumb;
-	Sprite *background;
+	ColoredCircleSprite *thumb;
+	ColoredCircleSprite *background;
 }
 
 @property (nonatomic, assign) BOOL autoCenter;
@@ -36,8 +35,5 @@
 @property (nonatomic, readonly) float degrees;
 
 -(id)initWithRect:(CGRect)rect;
--(bool)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
--(bool)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
--(bool)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end

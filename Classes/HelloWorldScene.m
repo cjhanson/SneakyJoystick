@@ -5,6 +5,12 @@
 
 // Import the interfaces
 #import "HelloWorldScene.h"
+#import "ColoredCircleSprite.h"
+
+@interface HelloWorld (privateMethods)
+-(void)applyJoystick:(SneakyJoystick *)aJoystick toNode:(CCNode *)aNode forTimeDelta:(float)dt;
+@end
+
 
 // HelloWorld implementation
 @implementation HelloWorld
@@ -12,7 +18,7 @@
 +(id) scene
 {
 	// 'scene' is an autorelease object.
-	Scene *scene = [Scene node];
+	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
 	HelloWorld *layer = [HelloWorld node];
@@ -24,93 +30,64 @@
 	return scene;
 }
 
+- (void) dealloc
+{
+	[leftPlayer release];
+	[rightPlayer release];
+	[leftJoystick release];
+	[rightJoystick release];
+	
+	[super dealloc];
+}
+
 // on "init" you need to initialize your instance
 -(id) init
 {
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
+		// ask director the the window size
+		CGSize size = [[CCDirector sharedDirector] winSize];
 		
-			// enable touch interaction
-		self.isTouchEnabled = YES;
+			// create and initialize some objects to be controlled by the joysticks
+		leftPlayer = [[ColoredCircleSprite circleWithColor:ccc4(128, 128, 0, 255) radius:15] retain];
+		leftPlayer.position = ccp(size.width/2 - leftPlayer.contentSize.width/2 - 10, size.height/2);
+		[self addChild:leftPlayer z:10];
 		
-			// create and initialize a Label
-		helloWorldLabel = [Label labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
+		rightPlayer = [[ColoredCircleSprite circleWithColor:ccc4(128, 0, 128, 255) radius:20] retain];
+		rightPlayer.position = ccp(size.width/2 + rightPlayer.contentSize.width/2 + 10, size.height/2);
+		[self addChild:rightPlayer z:11];
 		
-			// make a rect with the x/y position and width/height of the joystick
-			// then create and initalize the joystick
-		CGRect leftjoy = CGRectMake(0.0f, 0.0f, 128.0f, 128.0f);
-		leftJoystick = [[[joystick alloc] initWithRect:leftjoy] retain];
-
-			// ask director the the window size
-		CGSize size = [[Director sharedDirector] winSize];
-	
-			// position the label on the center of the screen
-		helloWorldLabel.position =  ccp( size.width /2 , size.height/2 );
-		
-			// add the label and joystick as children to this Layer
-		[self addChild:helloWorldLabel];
+			// create and initalize the joystick(s) with position and size specified by a rect
+		leftJoystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(100.0f+10, 100.0f+10, 200.0f, 200.0f)];
 		[self addChild:leftJoystick];
 		
-			// set animation interval to 60FPS, schedule a polling function at 120FPS
-		[[Director sharedDirector] setAnimationInterval:1.0f/60.0f];
-		[self schedule:@selector(tick:) interval:1.0f/120.0f];
+		rightJoystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(size.width - 75.0f-10, 75.0f+10, 150.0f, 150.0f)];
+		[self addChild:rightJoystick];
+		
+			// schedule a method to update object positions based on the joystick(s)
+		[self schedule:@selector(tick:)];
 	}
 	return self;
 }
-
-	//function to scale the velocity
--(CGPoint)scaleVelocity:(CGPoint)velocity withScale:(float)scale{
-	return CGPointMake(scale * velocity.x,scale * velocity.y);
-}
-
 	//function to apply a velocity to a position with delta
--(CGPoint)applyVelocity:(CGPoint)velocity toPosition:(CGPoint)position withDelta:(float)delta{
+static CGPoint applyVelocity(CGPoint velocity, CGPoint position, float delta){
 	return CGPointMake(position.x + velocity.x * delta, position.y + velocity.y * delta);
 }
 
--(void)tick:(float)delta {
-		// grab the velocity from leftJoystick
-	CGPoint velocity = leftJoystick.velocity;
-	
-		// create a velocity specific to the label
-		// you can make many of these using the same initial velocity to do a parallax scrolling of sorts
-	CGPoint labelVelocity = [self scaleVelocity:velocity withScale:480.0f];
-	
-		// apply the scaled velocity to the position over delta
-	labelVelocity = [self applyVelocity:labelVelocity toPosition:helloWorldLabel.position withDelta:delta];
-	
-		// set the position
-	helloWorldLabel.position = labelVelocity;
+-(void)tick:(float)dt {
+	[self applyJoystick:leftJoystick toNode:leftPlayer forTimeDelta:dt];
+	[self applyJoystick:rightJoystick toNode:rightPlayer forTimeDelta:dt];
 }
 
-	//you have to set up the events for each joystick you make
--(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+-(void)applyJoystick:(SneakyJoystick *)aJoystick toNode:(CCNode *)aNode forTimeDelta:(float)dt
 {
-	[leftJoystick touchesBegan:touches withEvent:event];
-	return kEventHandled;
-}
-
--(BOOL)ccTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
-{
-	[leftJoystick touchesMoved:touches withEvent:event];
-	return kEventHandled;
-}
-
--(BOOL)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-{
-	[leftJoystick touchesEnded:touches withEvent:event];
-	return kEventHandled;
-}
-
-// on "dealloc" you need to release all your retained objects
-- (void) dealloc
-{
-	// in case you have something to dealloc, do it in this method
-	// in this particular example nothing needs to be released.
-	// cocos2d will automatically release all the children (Label)
+	// you can create a velocity specific to the node if you wanted, just supply a different multiplier
+	// which will allow you to do a parallax scrolling of sorts
+	CGPoint scaledVelocity = ccpMult(aJoystick.velocity, 480.0f); 
 	
-	// don't forget to call "super dealloc"
-	[super dealloc];
+	// apply the scaled velocity to the position over delta
+	aNode.position = applyVelocity(scaledVelocity, aNode.position, dt);
 }
+
 @end

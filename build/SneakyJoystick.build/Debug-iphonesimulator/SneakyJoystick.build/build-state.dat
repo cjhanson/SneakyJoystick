@@ -1,22 +1,21 @@
 TSneakyJoystick
 v7
 r0
-t287948655.960293
+t288090866.237978
 cCheck dependencies
-cProcessInfoPlistFile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Info.plist Resources/Info.plist
+cProcessInfoPlistFile "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Info.plist" Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/SneakyJoystick.app/Default.png Resources/Default.png
 cCpResource build/Debug-iphonesimulator/SneakyJoystick.app/fps_images.png Resources/fps_images.png
 cCpResource build/Debug-iphonesimulator/SneakyJoystick.app/Icon.png Resources/Icon.png
-cCpResource build/Debug-iphonesimulator/SneakyJoystick.app/64_white.png Resources/64_white.png
-cCpResource build/Debug-iphonesimulator/SneakyJoystick.app/128_white.png Resources/128_white.png
-cProcessPCH /var/folders/tb/tbmiZ-bYGlCgi4+bZeiL2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ezbifwsgvskozffueznxwfozhfnt/SneakyJoystick_Prefix.pch.gch SneakyJoystick_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/main.o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystickAppDelegate.o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/SneakyJoystickAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/joystick.o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/joystick.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick normal i386
-cGenerateDSYMFile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick
-cTouch /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app
+cProcessPCH /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch.gch SneakyJoystick_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/main.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystickAppDelegate.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/ColoredCircleSprite.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick" normal i386
+cGenerateDSYMFile "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM" "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick"
+cTouch "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
 c000000004B689E6D00000000000000EE
@@ -124,6 +123,121 @@ t1197688000
 s7704
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/libz.dylib
+c00000000476CCCD10000000000006EE8
+t1198312657
+s28392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
+c000000004A6BC18300000000000000EE
+t1248575875
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A76576C0000000000010D50
+t1249269612
+s68944
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A76502000000000001925E0
+t1249267744
+s1648096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A821911000000000026DAB0
+t1250040081
+s2546352
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004A8219110000000000002384
+t1250040081
+s9092
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A765094000000000027D510
+t1249267860
+s2610448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7650820000000000001355
+t1249267842
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004A7656D5000000000001DB20
+t1249269461
+s121632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004A76554E000000000000094F
+t1249269070
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004A76554E0000000000000A61
+t1249269070
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004A76554E0000000000009369
+t1249269070
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004A76554E0000000000002A42
+t1249269070
+s10818
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A765556000000000001E570
+t1249269078
+s124272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004A7655B1000000000000007D
+t1249269169
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A76560A00000000000E4510
+t1249269258
+s935184
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E970000000000000788
+t1249668759
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6F590000000001670E70
+t1249668953
+s23531120
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/include/objc/objc.h
+c000000004748F47C0000000000000A27
+t1195963516
+s2599
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/include/sys/time.h
+c00000000476344C00000000000001E18
+t1197688000
+s7704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/lib/libz.dylib
 c00000000476CCCD10000000000006EE8
 t1198312657
 s28392
@@ -729,18 +843,720 @@ t1266254317
 s365
 i<UIKit/UIKit.h>
 
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCAction.h
+c000000004B57D33E0000000000000E69
+t1264046910
+s3689
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCActionManager.h
+c000000004B714A2F0000000000000C0E
+t1265715759
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCAtlasNode.h
+c000000004B798E0D00000000000009C3
+t1266257421
+s2499
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCBitmapFontAtlas.h
+c000000004B6BD1840000000000001007
+t1265357188
+s4103
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCCamera.h
+c000000004B57D33E0000000000000815
+t1264046910
+s2069
+i"CCNode.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCCameraAction.h
+c000000004B57D33E0000000000000676
+t1264046910
+s1654
+i"CCIntervalAction.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCConfiguration.h
+c000000004B798E0D0000000000000470
+t1266257421
+s1136
+i<Foundation/Foundation.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCDirector.h
+c000000004B798E0E00000000000035CD
+t1266257422
+s13773
+i"ccConfig.h"
+i"ccTypes.h"
+i<QuartzCore/QuartzCore.h>
+i"Support/EAGLView.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCDrawingPrimitives.h
+c000000004B798E0A000000000000082C
+t1266257418
+s2092
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCEaseAction.h
+c000000004B798E0C0000000000001371
+t1266257420
+s4977
+i"CCIntervalAction.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCGrabber.h
+c000000004B1F415300000000000002C0
+t1260339539
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCGrid.h
+c000000004B57D33E0000000000000B52
+t1264046910
+s2898
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCGrid3DAction.h
+c000000004B1F415300000000000016A5
+t1260339539
+s5797
+i"CCGridAction.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCGridAction.h
+c000000004B798E08000000000000116F
+t1266257416
+s4463
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCInstantAction.h
+c000000004B714A2F0000000000000A17
+t1265715759
+s2583
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCIntervalAction.h
+c000000004B798E0C0000000000003259
+t1266257420
+s12889
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCLabel.h
+c000000004B54A04100000000000006E7
+t1263837249
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCLabelAtlas.h
+c000000004B798E0D0000000000000782
+t1266257421
+s1922
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCLayer.h
+c000000004B798E0B0000000000001155
+t1266257419
+s4437
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+i"ccConfig.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCMenu.h
+c000000004B798DB900000000000007DB
+t1266257337
+s2011
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCMenuItem.h
+c000000004B798E0C00000000000020EE
+t1266257420
+s8430
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCMotionStreak.h
+c000000004B798E0800000000000007F9
+t1266257416
+s2041
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCNode.h
+c000000004B798E0B000000000000375F
+t1266257419
+s14175
+i<OpenGLES/ES1/gl.h>
+i"ccConfig.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCPVRTexture.h
+c000000004B1F41530000000000000CA5
+t1260339539
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCPageTurn3DAction.h
+c000000004B1F4153000000000000030A
+t1260339539
+s778
+i"CCGrid3DAction.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCPageTurnTransition.h
+c000000004B1F415300000000000005BA
+t1260339539
+s1466
+i"CCTransition.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCParallaxNode.h
+c000000004B1F4153000000000000041B
+t1260339539
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCParticleExamples.h
+c000000004B798E080000000000000591
+t1266257416
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCParticleSystem.h
+c000000004B1F41530000000000001F33
+t1260339539
+s7987
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCPointParticleSystem.h
+c000000004B1F41530000000000000393
+t1260339539
+s915
+i"CCParticleSystem.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCProtocols.h
+c000000004B714A300000000000000F5E
+t1265715760
+s3934
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCQuadParticleSystem.h
+c000000004B1F4153000000000000045E
+t1260339539
+s1118
+i"CCParticleSystem.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCRenderTexture.h
+c000000004B798E08000000000000077E
+t1266257416
+s1918
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCRibbon.h
+c000000004B1F41530000000000000C7D
+t1260339539
+s3197
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCScene.h
+c000000004B1F41530000000000000356
+t1260339539
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCScheduler.h
+c000000004B714A300000000000000A9F
+t1265715760
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCSprite.h
+c000000004B798E0C000000000000289A
+t1266257420
+s10394
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccConfig.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCSpriteFrame.h
+c000000004B4BEB110000000000000E49
+t1263266577
+s3657
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCSpriteFrameCache.h
+c000000004B41943A0000000000000CC0
+t1262588986
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCSpriteSheet.h
+c000000004B798E080000000000000F97
+t1266257416
+s3991
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTMXLayer.h
+c000000004B7558E80000000000001003
+t1265981672
+s4099
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTMXObjectGroup.h
+c000000004B714A3000000000000005CC
+t1265715760
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTMXTiledMap.h
+c000000004B798E080000000000001102
+t1266257416
+s4354
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTMXXMLParser.h
+c000000004B41943A000000000000116E
+t1262588986
+s4462
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTexture2D.h
+c000000004B798E0B0000000000002451
+t1266257419
+s9297
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTextureAtlas.h
+c000000004B798E0D0000000000001316
+t1266257421
+s4886
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTextureCache.h
+c000000004B798E0C0000000000001047
+t1266257420
+s4167
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTileMapAtlas.h
+c000000004B798E080000000000000862
+t1266257416
+s2146
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTiledGridAction.h
+c000000004B1F415300000000000016DC
+t1260339539
+s5852
+i"CCGridAction.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTouchDelegateProtocol.h
+c000000004B4F4D73000000000000078B
+t1263488371
+s1931
+i<UIKit/UIKit.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTouchDispatcher.h
+c000000004B4F4D730000000000000C8C
+t1263488371
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTouchHandler.h
+c000000004B4F4D730000000000000886
+t1263488371
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/CCTransition.h
+c000000004B798E0E0000000000001DF5
+t1266257422
+s7669
+i"CCScene.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/Support/CCFileUtils.h
+c000000004B1F43D20000000000000251
+t1260340178
+s593
+i<Foundation/Foundation.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/Support/CGPointExtension.h
+c000000004B798E0C0000000000001430
+t1266257420
+s5168
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/Support/EAGLView.h
+c000000004B1F4153000000000000175A
+t1260339539
+s5978
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/Support/OpenGL_Internal.h
+c000000004B1F4153000000000000111D
+t1260339539
+s4381
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/Support/TGAlib.h
+c000000004B1F41530000000000000444
+t1260339539
+s1092
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/Support/ccArray.h
+c000000004B7558E80000000000002E36
+t1265981672
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/Support/ccHashSet.h
+c000000004B1F415300000000000011BE
+t1260339539
+s4542
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/ccConfig.h
+c000000004B798E0D0000000000000E73
+t1266257421
+s3699
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/ccMacros.h
+c000000004B798E0B0000000000000BF2
+t1266257419
+s3058
+i<math.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/GitC2DO/cocos2d/ccTypes.h
+c000000004B798E0C0000000000001816
+t1266257420
+s6166
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/../GitC2DO/cocos2d/cocos2d.h
+c000000004B798E0B0000000000000A28
+t1266257419
+s2600
+i"ccTypes.h"
+i"ccMacros.h"
+i"ccConfig.h"
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"CCConfiguration.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.h
+c000000004B7BACD000000000000003F7
+t1266396368
+s1015
+i"cocos2d.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.m
+c000000004B7BACDA0000000000000E0A
+t1266396378
+s3594
+i"ColoredCircleSprite.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.h
+c000000004B7BAFBB0000000000000182
+t1266397115
+s386
+i"cocos2d.h"
+i"SneakyJoystick.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.m
+c000000004B7BB3710000000000000B8C
+t1266398065
+s2956
+i"HelloWorldScene.h"
+i"ColoredCircleSprite.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.h
+c000000004B7BAEE300000000000003BD
+t1266396899
+s957
+i"cocos2d.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.m
+c000000004B7BAEEF0000000000000F43
+t1266396911
+s3907
+i"SneakyJoystick.h"
+i"cocos2d.h"
+i"ColoredCircleSprite.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.h
+c000000004B7B8FDF000000000000014E
+t1266388959
+s334
+i<UIKit/UIKit.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.m
+c000000004B7B93AB00000000000009A6
+t1266389931
+s2470
+i"SneakyJoystickAppDelegate.h"
+i"cocos2d.h"
+i"HelloWorldScene.h"
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/Default.png
+c000000004B7B8FDF00000000000077AB
+t1266388959
+s30635
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/Icon.png
+c000000004B7B8FDF000000000000246F
+t1266388959
+s9327
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Resources/fps_images.png
+c000000004B7B8FDF000000000000183B
+t1266388959
+s6203
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/SneakyJoystick_Prefix.pch
+c000000004B7B8FDF00000000000000BF
+t1266388959
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app
+t1266398066
+s340
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM
+t1266398066
+s102
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Default.png
+t1266388959
+s30635
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Icon.png
+t1266388959
+s9327
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Info.plist
+t1266388959
+s523
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/PkgInfo
+t1266388959
+s8
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick
+t1266398066
+s896396
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/fps_images.png
+t1266388959
+s6203
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/libcocos2d libraries.a
+c000000004B7B97570000000000222CA0
+t1266390871
+s2239648
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/ColoredCircleSprite.o
+t1266396789
+s25196
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o
+t1266398065
+s26180
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.LinkFileList
+c000000004B7BA40E000000000000036D
+t1266394126
+s877
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.o
+t1266396914
+s35500
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystickAppDelegate.o
+t1266397891
+s33036
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/main.o
+t1266390872
+s6132
+
+N/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/main.m
+c000000004B7B8FDF000000000000016D
+t1266388959
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch.gch
+t1266390871
+s13034960
+
 N/var/folders/tb/tbmiZ-bYGlCgi4+bZeiL2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ezbifwsgvskozffueznxwfozhfnt/SneakyJoystick_Prefix.pch.gch
 t1266254510
 s13034960
 
 NResources/Info.plist
-c000000004B7981EC0000000000000306
-t1266254316
+c000000004B7B8FDF0000000000000306
+t1266388959
 s774
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies287948655#287948655#0(0"0(0#1#0"4300934600#0"0#
+lSLF07#2@18"Check dependencies288090865#288090865#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/ColoredCircleSprite.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288089589.597113
+e288089589.775422
+r1
+xCompileC
+xbuild/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/ColoredCircleSprite.o
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.m288089589#288089589#0(0"0(0#0#96"/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.m4300885448#2389"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap" -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap" -Wall "-F/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/include" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources" -include /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch -c "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/ColoredCircleSprite.m" -o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/ColoredCircleSprite.o"0#
+
+CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288090865.346707
+e288090865.820521
+r1
+xCompileC
+xbuild/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.m288090865#288090865#0(0"0(0#0#92"/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.m4300885448#2381"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap" -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap" -Wall "-F/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/include" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources" -include /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch -c "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/HelloWorldScene.m" -o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o"0#
 
 CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s287948655.573019
@@ -754,6 +1570,32 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@86"Compile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/HelloWorldScene.m287948655#287948655#0(0"0(0#0#78"/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/HelloWorldScene.m4300934600#2207"    cd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap -iquote /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap -Wall -F/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/include -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386 -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources -include /var/folders/tb/tbmiZ-bYGlCgi4+bZeiL2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ezbifwsgvskozffueznxwfozhfnt/SneakyJoystick_Prefix.pch -c /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/HelloWorldScene.m -o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/HelloWorldScene.o0#
+
+CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288089713.909811
+e288089714.107786
+r1
+xCompileC
+xbuild/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.o
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.m288089713#288089714#0(0"0(0#0#91"/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.m4300885448#2379"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap" -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap" -Wall "-F/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/include" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources" -include /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch -c "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystick.m" -o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.o"0#
+
+CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystickAppDelegate.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288090691.123511
+e288090691.360140
+r1
+xCompileC
+xbuild/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystickAppDelegate.o
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.m288090691#288090691#0(0"0(0#0#102"/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.m4300885448#2401"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap" -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap" -Wall "-F/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/include" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources" -include /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch -c "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/Classes/SneakyJoystickAppDelegate.m" -o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystickAppDelegate.o"0#
 
 CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystickAppDelegate.o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/SneakyJoystickAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s287948582.249156
@@ -780,6 +1622,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/joystick.m287948064#287948064#0(0"0(0#0#71"/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/joystick.m4300934600#2193"    cd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap -iquote /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap -Wall -F/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/include -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386 -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources -include /var/folders/tb/tbmiZ-bYGlCgi4+bZeiL2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ezbifwsgvskozffueznxwfozhfnt/SneakyJoystick_Prefix.pch -c /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Classes/joystick.m -o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/joystick.o0#
+
+CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/main.o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s288083672.079941
+e288083672.146120
+r1
+xCompileC
+xbuild/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/main.o
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/main.m288083672#288083672#0(0"0(0#0#73"/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/main.m4300885448#2351"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap" -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap" -Wall "-F/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/include" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources" -include /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch -c "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/main.m" -o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/main.o"0#
 
 CCompileC build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/main.o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s287947310.249909
@@ -839,6 +1694,15 @@ xbuild/Debug-iphonesimulator/SneakyJoystick.app/fps_images.png
 xResources/fps_images.png
 lSLF07#2@29"Copy Resources/fps_images.png287947308#287947308#0(0"0(0#0#77"/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Resources/fps_images.png4300934600#517"    cd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Resources/fps_images.png /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app0#
 
+CGenerateDSYMFile "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM" "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick"
+s288090866.045371
+e288090866.225679
+r1
+xGenerateDSYMFile
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/SneakyJoystick.app.dSYM build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick288090866#288090866#0(0"0(0#0#128"/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick4300885448#494"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick" -o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM"0#
+
 CGenerateDSYMFile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick
 s287948655.868268
 e287948655.957079
@@ -847,6 +1711,16 @@ xGenerateDSYMFile
 x/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM
 x/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick
 lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/SneakyJoystick.app.dSYM build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick287948655#287948655#0(0"0(0#0#114"/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick4300934600#446"    cd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick -o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app.dSYM0#
+
+CLd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick" normal i386
+s288090865.820615
+e288090866.045267
+r1
+xLd
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick
+xnormal
+xi386
+lSLF07#2@133"Link /Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick288090865#288090866#0(0"0(0#0#0"4300885448#1197"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk "-L/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" "-F/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" -filelist "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.LinkFileList" -mmacosx-version-min=10.5 -all_load -ObjC -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick"0#
 
 CLd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick normal i386
 s287948655.732567
@@ -858,6 +1732,9 @@ xnormal
 xi386
 lSLF07#2@119"Link /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick287948655#287948655#0(0"0(0#0#0"4300934600#1119"    cd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator -F/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator -filelist /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/Objects-normal/i386/SneakyJoystick.LinkFileList -mmacosx-version-min=10.5 -all_load -ObjC -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/SneakyJoystick0#
 
+CProcessInfoPlistFile "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Info.plist" Resources/Info.plist
+r0
+
 CProcessInfoPlistFile /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Info.plist Resources/Info.plist
 s287947308.808629
 e287947308.834674
@@ -866,6 +1743,19 @@ xProcessInfoPlistFile
 x/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Info.plist
 xResources/Info.plist
 lSLF07#2@28"Process Resources/Info.plist287947308#287947308#0(0"0(0#0#73"/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/Resources/Info.plist4300934600#537"    cd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app/Info.plist0#
+
+CProcessPCH /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch.gch SneakyJoystick_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288083671.350757
+e288083672.079792
+r1
+xProcessPCH
+x/var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch.gch
+xSneakyJoystick_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile SneakyJoystick_Prefix.pch288083671#288083672#0(0"0(0#0#92"/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/SneakyJoystick_Prefix.pch4300885448#2206"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap" -iquote "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap" -Wall "-F/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/include" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386" "-I/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources" -c "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/SneakyJoystick_Prefix.pch" -o /var/folders/O8/O8NhVQoRE2eZ0mLDhxsSD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ebnymwhgaffjjncinoghqrawuglg/SneakyJoystick_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/tb/tbmiZ-bYGlCgi4+bZeiL2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ezbifwsgvskozffueznxwfozhfnt/SneakyJoystick_Prefix.pch.gch SneakyJoystick_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s287947308.887733
@@ -879,6 +1769,14 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@36"Precompile SneakyJoystick_Prefix.pch287947308#287947310#0(0"0(0#0#78"/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/SneakyJoystick_Prefix.pch4300934600#2048"    cd /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-generated-files.hmap -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-own-target-headers.hmap -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-all-target-headers.hmap -iquote /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/SneakyJoystick-project-headers.hmap -Wall -F/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/include -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources/i386 -I/Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/SneakyJoystick.build/Debug-iphonesimulator/SneakyJoystick.build/DerivedSources -c /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/SneakyJoystick_Prefix.pch -o /var/folders/tb/tbmiZ-bYGlCgi4+bZeiL2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SneakyJoystick_Prefix-ezbifwsgvskozffueznxwfozhfnt/SneakyJoystick_Prefix.pch.gch0#
+
+CTouch "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app"
+s288090866.225775
+e288090866.237925
+r1
+xTouch
+x/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app
+lSLF07#2@119"Touch /Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app288090866#288090866#0(0"0(0#0#0"4300885448#345"    cd "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/Rugged 500GB/Workspace/Projects/iPhone/Git_SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app"0#
 
 CTouch /Users/sneaky/Projects/SneakyJoystick/SneakyJoystick/build/Debug-iphonesimulator/SneakyJoystick.app
 s287948655.957202
