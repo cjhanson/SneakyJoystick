@@ -1,19 +1,14 @@
-//
-// cocos2d Hello World example
-// http://www.cocos2d-iphone.org
-//
-
-// Import the interfaces
-#import "HelloWorldScene.h"
+#import "DemoJoystickScene.h"
+#import "SneakyJoystick.h"
+#import "SneakyJoystickSkinnedJoystickExample.h"
+#import "SneakyJoystickSkinnedDPadExample.h"
 #import "ColoredCircleSprite.h"
 
-@interface HelloWorld (privateMethods)
+@interface DemoJoystickLayer (privateMethods)
 -(void)applyJoystick:(SneakyJoystick *)aJoystick toNode:(CCNode *)aNode forTimeDelta:(float)dt;
 @end
 
-
-// HelloWorld implementation
-@implementation HelloWorld
+@implementation DemoJoystickLayer
 
 +(id) scene
 {
@@ -21,7 +16,7 @@
 	CCScene *scene = [CCScene node];
 	
 	// 'layer' is an autorelease object.
-	HelloWorld *layer = [HelloWorld node];
+	DemoJoystickLayer *layer = [DemoJoystickLayer node];
 	
 	// add layer as a child to scene
 	[scene addChild: layer];
@@ -49,7 +44,7 @@
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
 		
-			// create and initialize some objects to be controlled by the joysticks
+		// create and initialize some objects to be controlled by the joysticks
 		leftPlayer = [[ColoredCircleSprite circleWithColor:ccc4(128, 128, 0, 255) radius:15] retain];
 		leftPlayer.position = ccp(size.width/2 - leftPlayer.contentSize.width/2 - 10, size.height/2);
 		[self addChild:leftPlayer z:10];
@@ -58,15 +53,21 @@
 		rightPlayer.position = ccp(size.width/2 + rightPlayer.contentSize.width/2 + 10, size.height/2);
 		[self addChild:rightPlayer z:11];
 		
-			// create and initalize the joystick(s) with position and size specified by a rect
-		leftJoystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(100.0f+10, 100.0f+10, 200.0f, 200.0f)];
-		[self addChild:leftJoystick];
+		// create and initalize the joystick(s) with position and size specified by a rect
 		
-		rightJoystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(size.width - 75.0f-10, 75.0f+10, 150.0f, 150.0f)];
-		rightJoystick.isDPad = YES;
-		[self addChild:rightJoystick];
+		//one for the left player
+		SneakyJoystickSkinnedJoystickExample *leftPad = [[[SneakyJoystickSkinnedJoystickExample alloc] init] autorelease];
+		leftPad.position = ccp(leftPad.contentSize.width/2 + 10, leftPad.contentSize.height/2 + 10);
+		leftJoystick = [leftPad.joystick retain];
+		[self addChild:leftPad];
 		
-			// schedule a method to update object positions based on the joystick(s)
+		//one for the right player
+		SneakyJoystickSkinnedDPadExample *rightDPad = [[[SneakyJoystickSkinnedDPadExample alloc] init] autorelease];
+		rightDPad.position = ccp(size.width - rightDPad.contentSize.width/2 - 10, rightDPad.contentSize.height/2 + 10);
+		rightJoystick = [rightDPad.joystick retain];
+		[self addChild:rightDPad];
+		
+		// schedule a method to update object positions based on the joystick(s)
 		[self schedule:@selector(tick:)];
 	}
 	return self;

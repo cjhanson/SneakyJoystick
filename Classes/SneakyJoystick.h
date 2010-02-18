@@ -13,30 +13,36 @@
 
 #import "cocos2d.h"
 
-@class ColoredCircleSprite;
-
 @interface SneakyJoystick : CCNode <CCTargetedTouchDelegate> {
-	float joystickRadius;
-	float thumbRadius;
-	CGPoint curPosition;
+	CGPoint stickPosition;
 	float degrees;
 	CGPoint velocity;
-	bool active;
 	BOOL autoCenter;
-	NSUInteger numberOfDirections;
 	BOOL isDPad;
+	NSUInteger numberOfDirections; //Used only when isDpad == YES
 	
-	ColoredCircleSprite *thumb;
-	ColoredCircleSprite *background;
+	float joystickRadius;
+	float thumbRadius;
+	float touchRadius; //This is just the joystickRadius - thumbRadius (updated internally when changing joy/thumb radii)
+	float deadRadius; //If the stick isn't moved enough then just don't apply any velocity
+	
+	//Optimizations (keep Squared values of all radii for faster calculations) (updated internally when changing joy/thumb radii)
+	float joystickRadiusSq;
+	float thumbRadiusSq;
+	float touchRadiusSq;
+	float deadRadiusSq;
 }
 
+@property (nonatomic, readonly) CGPoint stickPosition;
+@property (nonatomic, readonly) float degrees;
+@property (nonatomic, readonly) CGPoint velocity;
 @property (nonatomic, assign) BOOL autoCenter;
+@property (nonatomic, assign) BOOL isDPad;
+@property (nonatomic, assign) NSUInteger numberOfDirections;
+
 @property (nonatomic, assign) float joystickRadius;
 @property (nonatomic, assign) float thumbRadius;
-@property (nonatomic, readonly) CGPoint velocity;
-@property (nonatomic, readonly) float degrees;
-@property (nonatomic, assign) NSUInteger numberOfDirections;
-@property (nonatomic, assign) BOOL isDPad;
+@property (nonatomic, assign) float deadRadius;
 
 -(id)initWithRect:(CGRect)rect;
 

@@ -154,7 +154,11 @@
 		3726E796112BC8C4003A9A62 /* ZAttributedStringPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3726E78B112BC8C4003A9A62 /* ZAttributedStringPrivate.h */; };
 		3726E797112BC8C4003A9A62 /* ZFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3726E78C112BC8C4003A9A62 /* ZFont.h */; };
 		3726E798112BC8C4003A9A62 /* ZFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3726E78D112BC8C4003A9A62 /* ZFont.m */; };
-		3726E7F4112BD30A003A9A62 /* ColoredCircleSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3726E7F3112BD30A003A9A62 /* ColoredCircleSprite.m */; };
+		37520CB4112CFCF300058B73 /* ColoredCircleSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 37520CB3112CFCF300058B73 /* ColoredCircleSprite.m */; };
+		37520CBD112CFD8400058B73 /* SneakyJoystickSkinnedDPadExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 37520CBC112CFD8400058B73 /* SneakyJoystickSkinnedDPadExample.m */; };
+		37520CD2112D02E300058B73 /* DPad_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 37520CD1112D02E300058B73 /* DPad_BG.png */; };
+		37520D17112D085900058B73 /* SneakyJoystickSkinnedJoystickExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 37520D16112D085900058B73 /* SneakyJoystickSkinnedJoystickExample.m */; };
+		37520D1A112D088000058B73 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 37520D19112D088000058B73 /* SneakyJoystickSkinnedBase.m */; };
 		505574581045D68500A31725 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */; };
 		505574591045D68500A31725 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		5055745A1045D68500A31725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -164,7 +168,7 @@
 		5055745E1045D69D00A31725 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDB87102F4C4000A389B3 /* libz.dylib */; };
 		506EDB88102F4C4000A389B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDB87102F4C4000A389B3 /* libz.dylib */; };
 		506EDBA5102F4C9F00A389B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */; };
-		506EDC31102F528A00A389B3 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EDC30102F528A00A389B3 /* HelloWorldScene.m */; };
+		506EDC31102F528A00A389B3 /* DemoJoystickScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 506EDC30102F528A00A389B3 /* DemoJoystickScene.m */; };
 		506EE1A91030508200A389B3 /* libcocos2d libraries.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EE05E10304ED200A389B3 /* libcocos2d libraries.a */; };
 		50F414F01069373D002A0D5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EC1069373D002A0D5E /* Default.png */; };
 		50F414F11069373D002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414ED1069373D002A0D5E /* fps_images.png */; };
@@ -340,12 +344,19 @@
 		3726E78B112BC8C4003A9A62 /* ZAttributedStringPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZAttributedStringPrivate.h; path = ../GitC2DO/external/FontLabel/ZAttributedStringPrivate.h; sourceTree = SOURCE_ROOT; };
 		3726E78C112BC8C4003A9A62 /* ZFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZFont.h; path = ../GitC2DO/external/FontLabel/ZFont.h; sourceTree = SOURCE_ROOT; };
 		3726E78D112BC8C4003A9A62 /* ZFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZFont.m; path = ../GitC2DO/external/FontLabel/ZFont.m; sourceTree = SOURCE_ROOT; };
-		3726E7F2112BD30A003A9A62 /* ColoredCircleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredCircleSprite.h; sourceTree = "<group>"; };
-		3726E7F3112BD30A003A9A62 /* ColoredCircleSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredCircleSprite.m; sourceTree = "<group>"; };
+		37520CB2112CFCF300058B73 /* ColoredCircleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredCircleSprite.h; sourceTree = "<group>"; };
+		37520CB3112CFCF300058B73 /* ColoredCircleSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredCircleSprite.m; sourceTree = "<group>"; };
+		37520CBB112CFD8400058B73 /* SneakyJoystickSkinnedDPadExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedDPadExample.h; sourceTree = "<group>"; };
+		37520CBC112CFD8400058B73 /* SneakyJoystickSkinnedDPadExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedDPadExample.m; sourceTree = "<group>"; };
+		37520CD1112D02E300058B73 /* DPad_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DPad_BG.png; sourceTree = "<group>"; };
+		37520D15112D085900058B73 /* SneakyJoystickSkinnedJoystickExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedJoystickExample.h; sourceTree = "<group>"; };
+		37520D16112D085900058B73 /* SneakyJoystickSkinnedJoystickExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedJoystickExample.m; sourceTree = "<group>"; };
+		37520D18112D088000058B73 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
+		37520D19112D088000058B73 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
 		506EDB87102F4C4000A389B3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		506EDC2F102F528A00A389B3 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
-		506EDC30102F528A00A389B3 /* HelloWorldScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldScene.m; sourceTree = "<group>"; };
+		506EDC2F102F528A00A389B3 /* DemoJoystickScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoJoystickScene.h; sourceTree = "<group>"; };
+		506EDC30102F528A00A389B3 /* DemoJoystickScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoJoystickScene.m; sourceTree = "<group>"; };
 		506EE05E10304ED200A389B3 /* libcocos2d libraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocos2d libraries.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F414EC1069373D002A0D5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		50F414ED1069373D002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
@@ -445,14 +456,13 @@
 		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				506EDC2F102F528A00A389B3 /* HelloWorldScene.h */,
-				506EDC30102F528A00A389B3 /* HelloWorldScene.m */,
-				3317D07F1129BA110056F249 /* SneakyJoystick.h */,
-				3317D0801129BA110056F249 /* SneakyJoystick.m */,
+				37520C77112CF4E700058B73 /* SneakyJoystick */,
+				506EDC2F102F528A00A389B3 /* DemoJoystickScene.h */,
+				506EDC30102F528A00A389B3 /* DemoJoystickScene.m */,
+				37520CB2112CFCF300058B73 /* ColoredCircleSprite.h */,
+				37520CB3112CFCF300058B73 /* ColoredCircleSprite.m */,
 				1F3B9A2C0EF2145700286867 /* SneakyJoystickAppDelegate.h */,
 				1F3B9A2B0EF2145700286867 /* SneakyJoystickAppDelegate.m */,
-				3726E7F2112BD30A003A9A62 /* ColoredCircleSprite.h */,
-				3726E7F3112BD30A003A9A62 /* ColoredCircleSprite.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -626,6 +636,29 @@
 			path = ../GitC2DO/external/FontLabel;
 			sourceTree = SOURCE_ROOT;
 		};
+		37520C77112CF4E700058B73 /* SneakyJoystick */ = {
+			isa = PBXGroup;
+			children = (
+				37520CBE112CFD8D00058B73 /* Examples of skinning */,
+				3317D07F1129BA110056F249 /* SneakyJoystick.h */,
+				3317D0801129BA110056F249 /* SneakyJoystick.m */,
+			);
+			name = SneakyJoystick;
+			sourceTree = "<group>";
+		};
+		37520CBE112CFD8D00058B73 /* Examples of skinning */ = {
+			isa = PBXGroup;
+			children = (
+				37520D18112D088000058B73 /* SneakyJoystickSkinnedBase.h */,
+				37520D19112D088000058B73 /* SneakyJoystickSkinnedBase.m */,
+				37520CBB112CFD8400058B73 /* SneakyJoystickSkinnedDPadExample.h */,
+				37520CBC112CFD8400058B73 /* SneakyJoystickSkinnedDPadExample.m */,
+				37520D15112D085900058B73 /* SneakyJoystickSkinnedJoystickExample.h */,
+				37520D16112D085900058B73 /* SneakyJoystickSkinnedJoystickExample.m */,
+			);
+			name = "Examples of skinning";
+			sourceTree = "<group>";
+		};
 		506EDAA3102F461B00A389B3 /* cocos2d Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -638,6 +671,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37520CD1112D02E300058B73 /* DPad_BG.png */,
 				50F414EC1069373D002A0D5E /* Default.png */,
 				50F414ED1069373D002A0D5E /* fps_images.png */,
 				50F414EE1069373D002A0D5E /* Icon.png */,
@@ -797,6 +831,7 @@
 				50F414F01069373D002A0D5E /* Default.png in Resources */,
 				50F414F11069373D002A0D5E /* fps_images.png in Resources */,
 				50F414F21069373D002A0D5E /* Icon.png in Resources */,
+				37520CD2112D02E300058B73 /* DPad_BG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,9 +844,12 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1F3B9A2D0EF2145700286867 /* SneakyJoystickAppDelegate.m in Sources */,
-				506EDC31102F528A00A389B3 /* HelloWorldScene.m in Sources */,
+				506EDC31102F528A00A389B3 /* DemoJoystickScene.m in Sources */,
 				3317D0811129BA110056F249 /* SneakyJoystick.m in Sources */,
-				3726E7F4112BD30A003A9A62 /* ColoredCircleSprite.m in Sources */,
+				37520CB4112CFCF300058B73 /* ColoredCircleSprite.m in Sources */,
+				37520CBD112CFD8400058B73 /* SneakyJoystickSkinnedDPadExample.m in Sources */,
+				37520D17112D085900058B73 /* SneakyJoystickSkinnedJoystickExample.m in Sources */,
+				37520D1A112D088000058B73 /* SneakyJoystickSkinnedBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

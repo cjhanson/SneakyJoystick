@@ -75,7 +75,7 @@
 -(void) setRadius: (float) size
 {
 	radius_ = size;
-	const float theta_inc	= 2.0f * CC_PI/numberOfSegments;
+	const float theta_inc	= 2.0f * 3.14159265359f/numberOfSegments;
 	float theta				= 0.0f;
 	
 	for(int i=0; i<numberOfSegments; i++)

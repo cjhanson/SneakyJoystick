@@ -12,8 +12,11 @@
 //  IRC: #cocos2d-iphone irc.freenode.net
 
 #import "SneakyJoystick.h"
-#import "cocos2d.h"
-#import "ColoredCircleSprite.h"
+
+#define SJ_PI 3.14159265359f
+#define SJ_PI_X_2 6.28318530718f
+#define SJ_RAD2DEG 180.0f/SJ_PI
+#define SJ_DEG2RAD SJ_PI/180.0f
 
 @interface SneakyJoystick(hidden)
 - (void)updateVelocity:(CGPoint)point;
@@ -21,12 +24,19 @@
 
 @implementation SneakyJoystick
 
-@synthesize joystickRadius, thumbRadius, autoCenter, velocity, degrees, isDPad, numberOfDirections;
+@synthesize
+stickPosition,
+degrees,
+velocity,
+autoCenter,
+isDPad,
+numberOfDirections,
+joystickRadius,
+thumbRadius,
+deadRadius;
 
 - (void) dealloc
 {
-	[thumb release];
-	[background release];
 	[super dealloc];
 }
 
@@ -34,22 +44,20 @@
 {
 	self = [super init];
 	if(self){
-		position_ = rect.origin;
+		stickPosition = CGPointZero;
+		degrees = 0.0f;
 		velocity = CGPointZero;
 		autoCenter = YES;
-		joystickRadius = rect.size.width/2;
-		thumbRadius = 32.0f;
-		curPosition = CGPointZero;
-		active = NO;
 		isDPad = NO;
 		numberOfDirections = 4;
 		
-		background = [[ColoredCircleSprite circleWithColor:ccc4(255, 0, 0, 128) radius:rect.size.width/2] retain];
-		[self addChild:background z:0];
+		self.joystickRadius = rect.size.width/2;
+		self.thumbRadius = 32.0f;
+		self.deadRadius = 10.0f;
 		
-		thumb = [[ColoredCircleSprite circleWithColor:ccc4(255, 255, 255, 128) radius:thumbRadius] retain];
-		[self addChild:thumb z:1];
-	}
+		//Cocos node stuff
+		position_ = rect.origin;
+}
 	return self;
 }
 
@@ -63,92 +71,107 @@
 	[[CCTouchDispatcher sharedDispatcher] removeDelegate:self];
 }
 
--(void)updateVelocity:(CGPoint)point {
+-(void)updateVelocity:(CGPoint)point
+{
 	// Calculate distance and angle from the center.
 	float dx = point.x;
 	float dy = point.y;
-	
-	float joyRadSq = joystickRadius * joystickRadius;
-	float thumbRadSq = thumbRadius * thumbRadius;
 	float dSq = dx * dx + dy * dy;
+	
+	if(dSq < deadRadiusSq){
+		velocity = CGPointZero;
+		degrees = 0.0f;
+		stickPosition = point;
+		return;
+	}
+
 	float angle = atan2f(dy, dx); // in radians
+	if(angle < 0){
+		angle		+= SJ_PI_X_2;
+	}
+	float cosAngle;
+	float sinAngle;
+	
+	if(isDPad){
+		float anglePerSector = 360.0f / numberOfDirections * SJ_DEG2RAD;
+		angle = roundf(angle/anglePerSector) * anglePerSector;
+	}
+	
+	cosAngle = cosf(angle);
+	sinAngle = sinf(angle);
 	
 	// NOTE: Velocity goes from -1.0 to 1.0.
-	// BE CAREFUL: don't just cap each direction at 1.0 since that
-	// doesn't preserve the proportions.
-	if (dSq > joyRadSq) {
-		dx = cosf(angle) * joystickRadius;
-		dy = sinf(angle) *  joystickRadius;
+	if (dSq > touchRadiusSq || isDPad) {
+		dx = cosAngle * touchRadius;
+		dy = sinAngle * touchRadius;
 	}
 	
-	velocity = CGPointMake(dx/joystickRadius, dy/joystickRadius);
-	degrees = angle * (180.0f/3.14159265359f);
-	
-	// Constrain the thumb so that it stays within the joystick
-	// boundaries.  This is smaller than the joystick radius in
-	// order to account for the size of the thumb.
-	if (dSq > thumbRadSq) {
-		point.x = cosf(angle) * thumbRadius;
-		point.y = sinf(angle) * thumbRadius;
-	}
-	
+	velocity = CGPointMake(dx/touchRadius, dy/touchRadius);
+	degrees = angle * SJ_RAD2DEG;
+
 	// Update the thumb's position
-	[thumb setPosition:point];
+	stickPosition = ccp(dx, dy);
 }
 
 - (void) setJoystickRadius:(float)r
 {
 	joystickRadius = r;
-	background.radius = r;
+	joystickRadiusSq = r*r;
+	
+	touchRadius = joystickRadius - thumbRadius;
+	touchRadiusSq = touchRadius * touchRadius;
 }
 
 - (void) setThumbRadius:(float)r
 {
 	thumbRadius = r;
-	thumb.radius = r;
+	thumbRadiusSq = r*r;
+	
+	touchRadius = joystickRadius - thumbRadius;
+	touchRadiusSq = touchRadius * touchRadius;
+}
+
+- (void) setDeadRadius:(float)r
+{
+	deadRadius = r;
+	deadRadiusSq = r*r;
 }
 
 #pragma mark Touch Delegate
 
 - (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
-	if(active)
-		return NO;
-	
 	CGPoint location = [[CCDirector sharedDirector] convertToGL:[touch locationInView:[touch view]]];
-	if([background containsPoint:[background convertToNodeSpace:location]]){
-		active = YES;
-		curPosition = [self convertToNodeSpace:location];
-		[self updateVelocity:curPosition];
-		[background setColor:ccc3(0, 255, 0)];
-		return YES;
+	//if([background containsPoint:[background convertToNodeSpace:location]]){
+	location = [self convertToNodeSpace:location];
+	//Do a fast rect check before doing a circle hit check:
+	if(location.x < -touchRadius || location.x > touchRadius || location.y < -touchRadius || location.y > touchRadius){
+		return NO;
+	}else{
+		float dSq = location.x*location.x + location.y*location.y;
+		if(touchRadiusSq > dSq){
+			[self updateVelocity:location];
+			return YES;
+		}
 	}
 	return NO;
 }
 
 - (void)ccTouchMoved:(UITouch *)touch withEvent:(UIEvent *)event
 {
-	if(!active)
-		return;
 	CGPoint location = [[CCDirector sharedDirector] convertToGL:[touch locationInView:[touch view]]];
-	curPosition = [self convertToNodeSpace:location];
-	[self updateVelocity:curPosition];
+	location = [self convertToNodeSpace:location];
+	[self updateVelocity:location];
 }
 
 - (void)ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event
 {
-	if(!active)
-		return;
-	
-	active = NO;
-	if(autoCenter){
-		curPosition = CGPointZero;
-	}else{
+	CGPoint location = CGPointZero;
+	if(!autoCenter){
 		CGPoint location = [[CCDirector sharedDirector] convertToGL:[touch locationInView:[touch view]]];
-		curPosition = [self convertToNodeSpace:location];
+		location = [self convertToNodeSpace:location];
 	}
-	[self updateVelocity:curPosition];
-	[background setColor:ccc3(255, 0, 0)];
+	[self updateVelocity:location];
 }
 
 - (void)ccTouchCancelled:(UITouch *)touch withEvent:(UIEvent *)event

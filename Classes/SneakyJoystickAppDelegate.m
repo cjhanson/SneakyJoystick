@@ -8,7 +8,7 @@
 
 #import "SneakyJoystickAppDelegate.h"
 #import "cocos2d.h"
-#import "HelloWorldScene.h"
+#import "DemoJoystickScene.h"
 
 @implementation SneakyJoystickAppDelegate
 
@@ -51,9 +51,8 @@
 	[window makeKeyAndVisible];		
 		
 		
-	[[CCDirector sharedDirector] runWithScene: [HelloWorld scene]];
+	[[CCDirector sharedDirector] runWithScene: [DemoJoystickLayer scene]];
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
 	[[CCDirector sharedDirector] pause];
