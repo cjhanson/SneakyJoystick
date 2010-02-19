@@ -23,13 +23,11 @@
 	
 	float joystickRadius;
 	float thumbRadius;
-	float touchRadius; //This is just the joystickRadius - thumbRadius (updated internally when changing joy/thumb radii)
 	float deadRadius; //If the stick isn't moved enough then just don't apply any velocity
 	
 	//Optimizations (keep Squared values of all radii for faster calculations) (updated internally when changing joy/thumb radii)
 	float joystickRadiusSq;
 	float thumbRadiusSq;
-	float touchRadiusSq;
 	float deadRadiusSq;
 }
 

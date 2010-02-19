@@ -78,7 +78,7 @@ deadRadius;
 	float dy = point.y;
 	float dSq = dx * dx + dy * dy;
 	
-	if(dSq < deadRadiusSq){
+	if(dSq <= deadRadiusSq){
 		velocity = CGPointZero;
 		degrees = 0.0f;
 		stickPosition = point;
@@ -101,12 +101,12 @@ deadRadius;
 	sinAngle = sinf(angle);
 	
 	// NOTE: Velocity goes from -1.0 to 1.0.
-	if (dSq > touchRadiusSq || isDPad) {
-		dx = cosAngle * touchRadius;
-		dy = sinAngle * touchRadius;
+	if (dSq > joystickRadiusSq || isDPad) {
+		dx = cosAngle * joystickRadius;
+		dy = sinAngle * joystickRadius;
 	}
 	
-	velocity = CGPointMake(dx/touchRadius, dy/touchRadius);
+	velocity = CGPointMake(dx/joystickRadius, dy/joystickRadius);
 	degrees = angle * SJ_RAD2DEG;
 
 	// Update the thumb's position
@@ -117,18 +117,12 @@ deadRadius;
 {
 	joystickRadius = r;
 	joystickRadiusSq = r*r;
-	
-	touchRadius = joystickRadius - thumbRadius;
-	touchRadiusSq = touchRadius * touchRadius;
 }
 
 - (void) setThumbRadius:(float)r
 {
 	thumbRadius = r;
 	thumbRadiusSq = r*r;
-	
-	touchRadius = joystickRadius - thumbRadius;
-	touchRadiusSq = touchRadius * touchRadius;
 }
 
 - (void) setDeadRadius:(float)r
@@ -145,11 +139,11 @@ deadRadius;
 	//if([background containsPoint:[background convertToNodeSpace:location]]){
 	location = [self convertToNodeSpace:location];
 	//Do a fast rect check before doing a circle hit check:
-	if(location.x < -touchRadius || location.x > touchRadius || location.y < -touchRadius || location.y > touchRadius){
+	if(location.x < -joystickRadius || location.x > joystickRadius || location.y < -joystickRadius || location.y > joystickRadius){
 		return NO;
 	}else{
 		float dSq = location.x*location.x + location.y*location.y;
-		if(touchRadiusSq > dSq){
+		if(joystickRadiusSq > dSq){
 			[self updateVelocity:location];
 			return YES;
 		}
